@@ -1,0 +1,59 @@
+* {
+  /* box-sizing: border-box; */
+}
+
+:focus {
+ /* TODO */
+}
+
+body {
+  background: rgb(255,85,0);
+  background: linear-gradient(90deg, rgba(255,85,0,1) 10%, rgba(83,90,180,1) 85%);
+}
+
+input {
+ outline: none;
+ background-color: lime;
+}
+
+.search-container {
+  position: relative;
+  
+  top: 210px;
+  left: 40%;
+}
+.search-container input,
+.search-container .suggestions {
+  
+}
+.search-container input {
+  
+}
+.search-container .suggestions {
+   /* TODO */
+}
+
+ul {
+ background-color: lime;
+ border-color: black;
+ list-style-type: none;
+ position: relative;
+ top: -16px;
+ width: 200px;
+ padding-left:  3px;
+}
+ul.has-suggestions {
+  
+}
+ul li {
+ background-color: lime;
+ border-color: black;
+ 
+}
+ul li:hover {
+  /* TODO */ background-color: green;
+}
+
+input {
+   /* TODO */
+}
